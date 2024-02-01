@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header';
+import  {Content}  from './Content';
+import { useState } from 'react';
+import MovieDesc from './MovieDesc';
 function App() {
+
+  const [page,changePage] = useState("Main");
+  const [form,formFunc] = useState(0);
+  if(page==="Main")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <Content changePage={changePage}/>
+    </>
   );
+  else
+  {
+    return (
+      <MovieDesc id={page} changePage={changePage} formFunc={formFunc} form={form}/>
+    );
+  }
 }
 
 export default App;

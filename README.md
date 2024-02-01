@@ -1,4 +1,6 @@
 ![Screenshot 2024-02-01 153434](https://github.com/Darshan-693/Movies/assets/136052457/b4ddd113-1897-4a37-8a41-e597aa906e4d)
+![Screenshot 2024-02-01 153623](https://github.com/Darshan-693/Movies/assets/136052457/32f462f5-d320-4df5-86a4-b52c4bda8d86)
+![Screenshot 2024-02-01 153656](https://github.com/Darshan-693/Movies/assets/136052457/c17c08f6-2b71-4f3d-83c3-db1747f72638)
 
 # Getting Started with Create React App
 

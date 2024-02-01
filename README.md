@@ -1,3 +1,5 @@
+![Screenshot 2024-02-01 153434](https://github.com/Darshan-693/Movies/assets/136052457/b4ddd113-1897-4a37-8a41-e597aa906e4d)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
